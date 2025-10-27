@@ -1,0 +1,12 @@
+websiteUrl: "https://www.browserstack.com/users/sign_in"
+outputDirectory: "results/login-scan"
+accessibility: true
+authentication:
+  type: form
+  formDetails:
+    url: "https://www.browserstack.com/users/sign_in"
+    method: POST
+    usernameField: "user[email]"
+    passwordField: "user[password]"
+    username: "<your_test_username>"
+    password: "<your_test_password>"

@@ -1,0 +1,13 @@
+{
+  "name": "a11y-automation-assignment-final",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "normal-scan": "node src/normal-scan.js",
+    "login-scan": "node src/login-scan.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
